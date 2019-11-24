@@ -37,10 +37,6 @@ asm_main:
 	push	eax
 	push	array1
 	
-test:
-	mov	eax,[array_size]
-
-	
 	call	mult_by_scalar
 	
 	add	esp,8		; removes scalar and array_size and array1 from stack
